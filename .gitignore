@@ -1,5 +1,6 @@
 env.r 
-repository-list-page*.json
+*.json
 .RData
 .Rhistory
 *.png
+tags
