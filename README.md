@@ -8,5 +8,12 @@ Simple script to generate stats for a Github organisation
 ## Requirements
 
 - JSON files with the repository list, as returned by the [Github API](https://docs.github.com/en/rest/repos/repos#list-organization-repositories). See [example](https://api.github.com/orgs/github/repos).
-- R language
+- R language (v4 or later)
+
+## Run
+
+```shell
+Rscript dependencies.r
+Rscript -e "source('env.r'); source('main.r')"
+```
 
